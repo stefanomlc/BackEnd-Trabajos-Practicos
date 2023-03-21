@@ -53,6 +53,7 @@ class ProductManager {
 
 
     getProducts() {
+        
         console.log("los productos son:")
         console.log(this.products);
         return this.products;
@@ -139,7 +140,7 @@ class ProductManager {
 }
 
 class submitProduct {
-    //atributos
+    //atributosReact/BackEnd-Trabajos-Practicos/Desafío 1 - (Clase 2) - Stefano López/desafio2.js
     title
     description
     price
